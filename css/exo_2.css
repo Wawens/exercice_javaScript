@@ -1,0 +1,94 @@
+/*************************************************************************************************
+******************-WJANV - 18/10/2021 - Header ---*****************************/
+
+header {
+    border-bottom: 1px dashed rgba(231, 116, 116, 0.842);
+    border-top: 1px dashed rgba(231, 116, 116, 0.842);
+    background-color: rgba(177, 217, 223, 0.692);
+    box-shadow: 12px 15px 10px 0 black;
+}
+
+header h1 {
+    text-align: center;
+    font-weight: 800;
+    color: transparent;
+    text-transform: uppercase;
+    background: url("https://images.toucharger.com/img/graphiques/photos/nature-paysage/foret-d-automne.74696.jpg")repeat;
+    -webkit-background-clip: text;
+}
+
+
+/*************************************************************************************************
+******************-WJANV - 18/10/2021 - triangle ---*****************************/
+
+.block::before {
+    content: "";
+    border-top: 80px solid rgb(235, 65, 65);
+    border-right: 100px solid transparent;
+    width: 10px;
+}
+
+
+/*************************************************************************************************
+******************-WJANV - 18/10/2021 - titre ---*****************************/
+
+h2 {
+    padding-bottom: 2px;
+    border-bottom: 2px dashed red;
+    width: 120px;
+}
+
+small {
+    color: rgb(0, 0, 0);
+    font-size: 0.8em;
+}
+
+strong {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin: auto;
+}
+
+.global {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.global p {
+    margin: auto;
+    color: rgb(119, 119, 230);
+}
+
+.gravitationnel {
+    position: absolute;
+    bottom: 0;
+    width: 200px;
+    margin-left: 44%;
+}
+
+.gravitationnel a {
+    background-color: #5a5a5ae1;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin: auto;
+}

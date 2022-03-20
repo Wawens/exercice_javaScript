@@ -1,0 +1,48 @@
+header {
+    border-bottom: 1px dashed rgba(231, 116, 116, 0.842);
+    border-top: 1px dashed rgba(231, 116, 116, 0.842);
+    background-color: rgba(177, 217, 223, 0.692);
+    box-shadow: 12px 15px 10px 0 black;
+}
+
+header h1 {
+    text-align: center;
+    font-weight: 800;
+    color: transparent;
+    text-transform: uppercase;
+    background: url("https://images.toucharger.com/img/graphiques/photos/nature-paysage/foret-d-automne.74696.jpg")repeat;
+    -webkit-background-clip: text;
+}
+
+.block::before {
+    content: "";
+    border-top: 80px solid rgb(235, 65, 65);
+    border-right: 100px solid transparent;
+    width: 10px;
+}
+
+h2 {
+    padding-bottom: 2px;
+    border-bottom: 2px dashed red;
+    width: 120px;
+}
+
+small {
+    color: rgb(0, 0, 0);
+    font-size: 1em;
+    box-shadow: 2px 5px 11px 15px rgba(107, 95, 177, 0.692);
+}
+
+strong {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#divcontainer p {
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-family: 'Prompt', sans-serif;
+    text-align: center;
+    width: 145px;
+    padding-top: 0.2em;
+}
